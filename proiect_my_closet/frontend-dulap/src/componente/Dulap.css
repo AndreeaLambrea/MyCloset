@@ -1,0 +1,32 @@
+.dulap-container {
+  padding: 20px;
+  min-height: 100vh;
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://i.pinimg.com/736x/41/15/7a/41157abe24ff18591a811b8ae5d51c68.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dulap-titlu {
+  color: #e6a863;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dulap-galerie {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dulap-empty {
+  color: white;
+  font-size: 20px;
+}

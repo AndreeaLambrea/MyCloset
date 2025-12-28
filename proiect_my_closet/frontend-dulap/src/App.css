@@ -1,0 +1,203 @@
+
+.App{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container-butoane-form{
+    display: flex;
+    gap: 180px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size:1.2rem;
+    cursor: pointer;
+}
+
+
+.fundal-adauga{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("https://i.pinimg.com/1200x/5a/c7/00/5ac70052f2b649a2fd9287a35b044dfd.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.form-stil{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 10px 10px 10px 30px rgba(230, 180, 190, 0.2);
+    background: transparent;
+    padding: 0;
+}
+
+.form-stil input[type= "text"]{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.container-formular{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 450px;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+
+    text-align: left;
+}
+
+.container-formular h2{
+    text-align: center;
+    color: #5A4A42;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.file-upload {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cacaca;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+}
+
+.file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-upload .text span {
+  font-weight: 400;
+  color: rgba(75, 85, 99, 1);
+}
+
+.file-upload input {
+  display: none;
+}
+
+.upload-container button{
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    flex:1;
+}
+
+.upload-container{
+    margin: 10px ;
+    padding: 10px;
+    border: none ;
+    box-shadow:0px 48px 35px -48px rgba(0,0,0,0.1);
+    text-align:center;
+    gap: 20px;
+}
+
+.upload-container label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.meniu-background {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.titlu-principal {
+    color: #e6a863;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container-butoane {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buton-chic {
+    background-color: transparent;
+    border: 2px solid #e6a863;
+    color: #e6a863;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buton-chic:hover {
+    background-color: #e6a863;
+    color: #282c34;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(230, 168, 99, 0.4);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
